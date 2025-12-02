@@ -3,9 +3,9 @@ package ui
 import (
 	"fmt"
 
+	"github.com/MartinRobomaze/go-app/pkg/app"
+	"github.com/MartinRobomaze/go-app/pkg/errors"
 	"github.com/google/uuid"
-	"github.com/maxence-charriere/go-app/v10/pkg/app"
-	"github.com/maxence-charriere/go-app/v10/pkg/errors"
 )
 
 // IFlyer is the interface that describes a base with ad spaces surrounded by

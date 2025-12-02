@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/maxence-charriere/go-app/v10/pkg/errors"
+	"github.com/MartinRobomaze/go-app/pkg/errors"
 )
 
 type optionParser struct {

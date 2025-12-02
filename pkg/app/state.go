@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/MartinRobomaze/go-app/pkg/errors"
 	"github.com/google/uuid"
-	"github.com/maxence-charriere/go-app/v10/pkg/errors"
 )
 
 // State represents a state with additional features such as expiration,

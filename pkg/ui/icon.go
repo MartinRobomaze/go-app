@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/maxence-charriere/go-app/v10/pkg/app"
+	"github.com/MartinRobomaze/go-app/pkg/app"
 )
 
 // IIcon is the interface that describes an icon.

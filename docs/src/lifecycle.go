@@ -1,6 +1,6 @@
 package main
 
-import "github.com/maxence-charriere/go-app/v10/pkg/app"
+import "github.com/MartinRobomaze/go-app/pkg/app"
 
 const (
 	installApp = "/app/install"

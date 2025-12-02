@@ -11,13 +11,13 @@ import (
 	"sync"
 	"syscall"
 
+	"github.com/MartinRobomaze/go-app/pkg/analytics"
+	"github.com/MartinRobomaze/go-app/pkg/app"
+	"github.com/MartinRobomaze/go-app/pkg/cli"
+	"github.com/MartinRobomaze/go-app/pkg/errors"
+	"github.com/MartinRobomaze/go-app/pkg/logs"
+	"github.com/MartinRobomaze/go-app/pkg/ui"
 	"github.com/SherClockHolmes/webpush-go"
-	"github.com/maxence-charriere/go-app/v10/pkg/analytics"
-	"github.com/maxence-charriere/go-app/v10/pkg/app"
-	"github.com/maxence-charriere/go-app/v10/pkg/cli"
-	"github.com/maxence-charriere/go-app/v10/pkg/errors"
-	"github.com/maxence-charriere/go-app/v10/pkg/logs"
-	"github.com/maxence-charriere/go-app/v10/pkg/ui"
 )
 
 const (

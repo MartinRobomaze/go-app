@@ -3,8 +3,8 @@ package ui
 import (
 	"fmt"
 
+	"github.com/MartinRobomaze/go-app/pkg/app"
 	"github.com/google/uuid"
-	"github.com/maxence-charriere/go-app/v10/pkg/app"
 )
 
 // IFlow is the interface that describes a container that displays its items as

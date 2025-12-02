@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/maxence-charriere/go-app/v10/pkg/app"
-	"github.com/maxence-charriere/go-app/v10/pkg/errors"
+	"github.com/MartinRobomaze/go-app/pkg/app"
+	"github.com/MartinRobomaze/go-app/pkg/errors"
 )
 
 const (
