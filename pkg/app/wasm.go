@@ -14,6 +14,6 @@ func GenerateStaticWebsite(dir string, h *Handler, pages ...string) error {
 		WithTag("architecture", runtime.GOARCH))
 }
 
-func wasmExecJS() string {
+func wasmExecJS(useTinyGo bool) string {
 	return ""
 }
