@@ -147,6 +147,9 @@ type Handler struct {
 	// issues with go-app functionality.
 	ServiceWorkerTemplate string
 
+	// UseTinyGo set to true, when the client WASM binary is compiled with tinygo.
+	UseTinyGo bool
+
 	once                 sync.Once
 	etag                 string
 	libraries            map[string][]byte
@@ -271,7 +274,7 @@ func (h *Handler) initPWAResources() {
 	h.cachedPWAResources.Set(cacheItem{
 		Path:        "/wasm_exec.js",
 		ContentType: "application/javascript",
-		Body:        []byte(wasmExecJS()),
+		Body:        []byte(wasmExecJS(h.UseTinyGo)),
 	})
 
 	h.cachedPWAResources.Set(cacheItem{
